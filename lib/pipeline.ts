@@ -21,7 +21,7 @@ export default class PipelineConstruct extends Construct {
       .owner("Eli1123")
       .repository({
           repoUrl: 'my-eks-blueprints',
-          credentialsSecretName: 'github-token',
+          credentialsSecretName: 'github-token1',
           targetRevision: 'main'
       })
       // WE ADD THE STAGES IN WAVE FROM THE PREVIOUS CODE
